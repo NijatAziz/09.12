@@ -1,0 +1,51 @@
+#allcategory{
+    padding: 30px;
+}
+
+#allcategory .category .img{
+    background:  radial-gradient(95.56% 95.56% at 50% 50%,#fff 0,#bddeff 100%);;
+    border-radius: 50%;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    
+    line-height: 10px;
+    margin-top: 20px;
+
+}
+#alldelivery {
+    padding: 30px;
+}
+
+#alldelivery .delivery{
+    background-color: rgb(248, 247, 247)
+}
+
+
+#trending{
+    padding: 30px;
+}
+
+#trending .title .image{
+    width: 320px;
+}
+
+#trending .title .image img{
+    width: 100%;
+}
+
+/* CSS Kodu */
+/* Ürünleri yan yana getir */
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product {
+    flex: 0 0 calc(33.3333% - 20px); /* Ürünleri üçte bir oranında genişlikte ayarla */
+    margin-bottom: 20px;
+}
